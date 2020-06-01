@@ -2,8 +2,7 @@ from twilio.rest import Client
 import math, random
 
 account_sid = 'AC72aa5e228e3b8871ed6d59f025006143'
-#auth_token = '[AuthToken]'
-auth_token = 'c9092723bc37642503ef92c67e675ad0'
+auth_token = '[AuthToken]'
 client = Client(account_sid, auth_token)
 
 love_msg = ['I','L','O','V','E','Y','O','U']
